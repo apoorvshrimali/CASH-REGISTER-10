@@ -1,7 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:
+        #DBEAFE;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+}
 
+.heading {
+    text-align: center;
+    color:
+        #2563EB;
+
+}
+
+.description {
+    text-align: center;
+    color:
+        #3B82F6;
+
+}
+
+#check-btn {
+    width: 5rem;
+    background-color: rgb(16, 133, 201);
+    color: white;
+    padding: 0.5rem 0
+}
+
+.btn-div {
+    text-align: center;
+    width: 100%;
+    margin: auto
+}
+
+.input {
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+input {
+    border: 1px solid #3B82F6;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+
+.caption {
+    font-weight: bold;
+}
+
+table {
+    width: 75%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+th,
+td {
+    margin-bottom: 1.5rem;
+    border: 1px solid black;
+    color: #3B82F6;
+    text-align: center;
 
 }
